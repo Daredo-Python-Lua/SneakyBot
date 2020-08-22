@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elevator Brand Matchup</title>
+    <style>
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        table{
+            border: solid 2px black;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: solid 2px black;
+        }
+        h2{
+            text-align: center;
+        }
+        th{
+            background-color: mediumaquamarine;
+        }
+        tr:nth-child(even){
+            background-color: beige;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h2>T     A     B     L     E</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        Brand
+                    </th>
+                    <th>
+                        Intelligent leveling
+                    </th>
+                    <th>
+                        Model
+                    </th>
+                    <th>
+                        Meets USDA Regulations
+                    </th>
+                    <th>
+                        Reliability(/100)
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>KONE</td>
+                    <td>Yes</td>
+                    <td>KDS D40</td>
+                    <td>Yes</td>
+                    <td>99/100</td>
+                </tr>
+                <tr>
+                    <td>Dellios</td>
+                    <td>No</td>
+                    <td>Crapo Generic 69420</td>
+                    <td>No</td>
+                    <td>-283910283921839021498217382194721873281372198372198479283/100</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>
